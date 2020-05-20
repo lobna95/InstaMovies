@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		4817D3292472AF6D00264ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D3282472AF6D00264ADD /* AppDelegate.swift */; };
 		4817D32B2472AF6D00264ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D32A2472AF6D00264ADD /* SceneDelegate.swift */; };
-		4817D32D2472AF6D00264ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D32C2472AF6D00264ADD /* ViewController.swift */; };
 		4817D3302472AF6D00264ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4817D32E2472AF6D00264ADD /* Main.storyboard */; };
 		4817D3322472AF7000264ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4817D3312472AF7000264ADD /* Assets.xcassets */; };
 		4817D3352472AF7000264ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4817D3332472AF7000264ADD /* LaunchScreen.storyboard */; };
 		4817D3402472AF7000264ADD /* InstaMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D33F2472AF7000264ADD /* InstaMoviesTests.swift */; };
 		4817D34B2472AF7000264ADD /* InstaMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D34A2472AF7000264ADD /* InstaMoviesUITests.swift */; };
+		4817D35C2472CE0F00264ADD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D35B2472CE0F00264ADD /* MainViewController.swift */; };
+		4817D35F2473471600264ADD /* moviesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D35E2473471600264ADD /* moviesRequest.swift */; };
+		4817D3612473472400264ADD /* recivedMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D3602473472400264ADD /* recivedMoviesModel.swift */; };
+		4817D36324741AF300264ADD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4817D36224741AF300264ADD /* MovieTableViewCell.swift */; };
+		484B0AC62474B74400115B57 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B0AC52474B74400115B57 /* MovieDetailsViewController.swift */; };
+		484B0AC82475908E00115B57 /* savedMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B0AC72475908E00115B57 /* savedMovieModel.swift */; };
+		484B0ACA2475914000115B57 /* addMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B0AC92475914000115B57 /* addMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		4817D3252472AF6D00264ADD /* InstaMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4817D3282472AF6D00264ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4817D32A2472AF6D00264ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4817D32C2472AF6D00264ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4817D32F2472AF6D00264ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4817D3312472AF7000264ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4817D3342472AF7000264ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		4817D3462472AF7000264ADD /* InstaMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4817D34A2472AF7000264ADD /* InstaMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaMoviesUITests.swift; sourceTree = "<group>"; };
 		4817D34C2472AF7000264ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4817D35B2472CE0F00264ADD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4817D35E2473471600264ADD /* moviesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviesRequest.swift; sourceTree = "<group>"; };
+		4817D3602473472400264ADD /* recivedMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recivedMoviesModel.swift; sourceTree = "<group>"; };
+		4817D36224741AF300264ADD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		484B0AC52474B74400115B57 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		484B0AC72475908E00115B57 /* savedMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedMovieModel.swift; sourceTree = "<group>"; };
+		484B0AC92475914000115B57 /* addMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,11 @@
 		4817D3272472AF6D00264ADD /* InstaMovies */ = {
 			isa = PBXGroup;
 			children = (
-				4817D3282472AF6D00264ADD /* AppDelegate.swift */,
-				4817D32A2472AF6D00264ADD /* SceneDelegate.swift */,
-				4817D32C2472AF6D00264ADD /* ViewController.swift */,
-				4817D32E2472AF6D00264ADD /* Main.storyboard */,
+				4817D35D247346F400264ADD /* Services */,
+				4817D35A2472C5D200264ADD /* Defaults */,
+				4817D3592472C59C00264ADD /* Controller */,
+				4817D3582472C54B00264ADD /* Storyboard */,
 				4817D3312472AF7000264ADD /* Assets.xcassets */,
-				4817D3332472AF7000264ADD /* LaunchScreen.storyboard */,
-				4817D3362472AF7000264ADD /* Info.plist */,
 			);
 			path = InstaMovies;
 			sourceTree = "<group>";
@@ -126,6 +136,46 @@
 				4817D34C2472AF7000264ADD /* Info.plist */,
 			);
 			path = InstaMoviesUITests;
+			sourceTree = "<group>";
+		};
+		4817D3582472C54B00264ADD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4817D32E2472AF6D00264ADD /* Main.storyboard */,
+				4817D3332472AF7000264ADD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4817D3592472C59C00264ADD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4817D35B2472CE0F00264ADD /* MainViewController.swift */,
+				4817D36224741AF300264ADD /* MovieTableViewCell.swift */,
+				484B0AC52474B74400115B57 /* MovieDetailsViewController.swift */,
+				484B0AC92475914000115B57 /* addMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4817D35A2472C5D200264ADD /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				4817D3362472AF7000264ADD /* Info.plist */,
+				4817D3282472AF6D00264ADD /* AppDelegate.swift */,
+				4817D32A2472AF6D00264ADD /* SceneDelegate.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		4817D35D247346F400264ADD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4817D35E2473471600264ADD /* moviesRequest.swift */,
+				4817D3602473472400264ADD /* recivedMoviesModel.swift */,
+				484B0AC72475908E00115B57 /* savedMovieModel.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4817D32D2472AF6D00264ADD /* ViewController.swift in Sources */,
+				4817D35C2472CE0F00264ADD /* MainViewController.swift in Sources */,
 				4817D3292472AF6D00264ADD /* AppDelegate.swift in Sources */,
+				4817D36324741AF300264ADD /* MovieTableViewCell.swift in Sources */,
+				484B0ACA2475914000115B57 /* addMovieViewController.swift in Sources */,
+				484B0AC62474B74400115B57 /* MovieDetailsViewController.swift in Sources */,
+				484B0AC82475908E00115B57 /* savedMovieModel.swift in Sources */,
+				4817D3612473472400264ADD /* recivedMoviesModel.swift in Sources */,
+				4817D35F2473471600264ADD /* moviesRequest.swift in Sources */,
 				4817D32B2472AF6D00264ADD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ACRYT77CGX;
-				INFOPLIST_FILE = InstaMovies/Info.plist;
+				INFOPLIST_FILE = InstaMovies/Defaults/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobna.InstaMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ACRYT77CGX;
-				INFOPLIST_FILE = InstaMovies/Info.plist;
+				INFOPLIST_FILE = InstaMovies/Defaults/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobna.InstaMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
